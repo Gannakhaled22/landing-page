@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  font-family: poppins;
+  background-color: rgb(72, 11, 97);
+  color: #fff;
+}
+.navContainerWrap {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(72, 11, 97);
+  display: flex;
+  color: #fff;
+  text-transform: capitalize;
+  justify-content: space-between;
+  gap: 30px;
+  font-style: italic;
+}
+.nav-left {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 50px;
+  align-items: center;
+}
+.nav-left > p,
+.ul
+.text-icon {
+  margin: 0 10px;
+  display: flex;
+  text-decoration: none;
+}
+.logo {
+  font-size: 22px;
+}
+.menu-list {
+  font-size: 14px;
+}
+.main-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px 100px;
+}
+.main-left > h1 {
+  color: white;
+  font-size: 50px;
+}
+
+.main-right > img {
+  height: 600px;
+}
+.main-btns {
+  margin-top: 20px;
+  display: flex;
+}
+.footer {
+display: flex;
+background-color: rgb(72, 11, 97);
+color: #fff;
+height: auto;
+}
+.footer-section {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  background-color: rgb(72, 11, 97);
+}
+.copyright{
+  background-color: rgb(72, 11, 97);
+  color: #fff;
+  text-align: center;
+  padding: 40px;
+
+}
+img {
+  display: block;
+  margin: 0;
+  width: 700px;
+  left: 0%;
+  }
+
+
+ 
+  
